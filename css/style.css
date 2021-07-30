@@ -1,0 +1,241 @@
+/* robot google font import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* google font poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* google font inter omport     */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+/* google  font lobstar added  */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #264653;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-menu {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+button {
+    border: 0;
+    padding: 10px 44px;
+    background-color: #e76f51;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+section {
+    width: 90%;
+
+}
+
+.top-left p {
+    color: #b7bec1;
+    font-size: 17px;
+
+}
+
+.top-left h1 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 48px;
+
+}
+
+.all-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+
+}
+
+.all-title-orange {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #E76F51;
+    text-align: center;
+
+}
+
+.features-text {
+    margin-top: 100px;
+}
+
+.features-text {
+    margin-bottom: 120px;
+}
+
+.features-small-head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #E76F51;
+    position: relative;
+    text-align: center;
+}
+
+.features-small-head::after {
+    content: "";
+    width: 8%;
+    height: 2px;
+    position: absolute;
+    background-color: #E76F51;
+    left: 46%;
+    bottom: 0;
+
+}
+
+
+.gray-bike {
+    filter: grayscale(100%);
+}
+
+/* new sections style start  */
+.news-img-miles {
+    clip-path: circle();
+    width: 68%;
+}
+
+.card-text {
+    color: #6C6C6C;
+    font-size: 18px;
+}
+
+.card-star {
+    color: #e77c40;
+
+}
+
+.card-star .fa-star {
+    height: 22px;
+    width: 22px;
+
+}
+
+.card-name {
+    font-size: 17px;
+    color: #23A6F0;
+    font-weight: 600;
+}
+
+.card-profession {
+
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* info --frequently ask question started */
+
+.accordion-question {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.accordion-description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+/* gallery style start  */
+.gallery-text{
+   
+    
+      font-weight: 600;
+      font-size: 48px;
+      color:#11fcad;
+      text-align: center;
+      font-family: 'Lobster',cursive;
+} 
+
+
+.carousel-item:hover>img{
+    transform: scale(2,2);
+    transition: 3s;
+    opacity: 0.5;
+
+}
+
+footer{
+    width: 100%;
+    height: 20%;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+
+/* medid query of header part  */
+@media only screen and (max-width: 576px) {
+
+
+    .top-left h1 {
+        font-size: 20px;
+    }
+
+    .top-left p {
+        font-size: 10px;
+    }
+
+    button {
+        padding: 4px 20px;
+    }
+
+    .top-right img {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+/* features section query  */
+@media only screen and (max-width: 576px) {
+
+    .all-title,
+    .all-title-orange {
+        font-size: 30px;
+    }
+
+    .features-bikes {
+        display: flex;
+        justify-content: center;
+    }
+
+    .features-bikes img {
+        margin-bottom: 100px;
+    }
+
+}
+
+/* frequently ask question media query */
+@media only screen and (min-width: 992px) and (max-width:1400px) {
+    .info-img {
+        width: 50%;
+        margin-left: 300px;
+    }
+
+    .info-img img {
+        width: 400px;
+        height: 350px;
+    }
+}
